@@ -10,4 +10,4 @@ variables:
   dotnetSdkVersion: '6.x'
 
 steps:
-- script: echo "$(Build.SourceBranchName)"
+- script: echo "$(Name)"
