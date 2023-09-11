@@ -5,7 +5,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-  group: test
+- group: test
 
 steps:
 - script: echo "$(Name)"
